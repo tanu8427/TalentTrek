@@ -1,0 +1,76 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    font-family: sans-serif;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .navbar-logo {
+    font-size: 1.8rem;
+    color: #2563eb;
+  }
+  
+  .brand-name {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #111;
+  }
+  
+  .navbar-center {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .navbar-center a {
+    color: #4b5563;
+    text-decoration: none;
+    font-size: 0.95rem;
+  }
+  
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .sign-in {
+    background-color: transparent;
+    color: #2563eb;
+    border: 1px solid #2563eb;
+    padding: 6px 14px;
+    border-radius: 9999px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+  }
+  
+  .sign-in:hover {
+    background-color: #2563eb;
+    color: white;
+  }
+  
+  .post-job {
+    background-color: transparent;
+    color: #2563eb;
+    border: 1px solid #2563eb;
+    padding: 6px 14px;
+    border-radius: 9999px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+  }
+  
+  .post-job:hover {
+    background-color: #2563eb;
+    color: white;
+  }
